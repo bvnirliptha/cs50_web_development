@@ -1,101 +1,69 @@
+.basic, .bullet_list .line1, .bullet_list .line2, .bullet_list .line3 {
+  padding: 5px;
+  margin: 0 0 0px;
+  font-size: 20px; }
+
 body {
-    background-color: #bbcf96;
-}
+  background-color: #abb;
+  font: 100% sans-serif; }
 
-@media only screen and (max-width: 900px) {
-    body {
-        background-color: #2bf368;
-    }
-}
+.main_body img {
+  height: 20;
+  width: 20;
+  padding: 10px; }
+.main_body #club_head {
+  color: #ff0000;
+  width: 50%;
+  text-align: center;
+  padding: 20px; }
+.main_body h2, .main_body h3 {
+  width: 50%;
+  padding: 20px; }
 
-
-.resize {
-    width = 1;
-    height = 1;
-    padding: 10px;
-    text-align: center;
-}
-
-
-
-
-h2, h3 {
-
-    width: 60%;
-    padding : 50px;
-}
-
-
-
-#club_head {
-
-    color: #F76363;
-    width=50%;
-    text-align: center;    
-    padding : 50px;
-}
-
+.bullet_list .line1 {
+  color: #31386d; }
+.bullet_list .line2 {
+  color: yellow; }
+.bullet_list .line3 {
+  color: indigo; }
 
 #club_players {
-
-
-    width: 60%;
-    padding: 50px;  
-
-}
-
-
-.line1 {
-    color: green;
-}
-
-
-.line2 {
-    color: purple;
-}
-
-
-.line3 {
-    color: darkred;
-}
-
+  font-size: 30px;
+  width: 50%;
+  padding: 20px; }
 
 table {
-                border: 2px ;
-                border-color: red;
-                border-collapse: collapse;
-                width: 50%;
-                text-align: center;
-            }
+  border: 2px;
+  border-color: red;
+  border-collapse: collapse;
+  width: 50%;
+  text-align: center;
+  padding: 10px; }
 
-            th, td {
-                border: 1px solid black;
-                padding: 5px;
-                text-align: center;
-            }
+th, td {
+  border: 1px solid black;
+  padding: 20px;
+  text-align: center; }
 
-            th {
-                background-color: gray;
-            }
+th {
+  background-color: gray; }
 
-
+tr:hover {
+  background-color: #f5f5f5; }
 
 @media print {
-          .donotprint {
-              display: none !important;
-          }
-      }
+  .donotprint {
+    display: none !important; } }
+.container button {
+  font-size: 20px;
+  background-color: #658e5c;
+  text-align: center;
+  padding: 20px; }
+.container button:hover {
+  background-color: orange; }
 
+@media only screen and (max-width: 900px) {
+  body {
+    background-color: #2bf368; } }
 
-
-
-button {
-                width: 200px;
-                height: 50px;
-                font-size: 24px;
-                background-color: grey;
-        }
-
-button:hover {
-                background-color: orange;
-        }
+/*# sourceMappingURL=style.css.map */

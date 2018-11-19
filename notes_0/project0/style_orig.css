@@ -1,0 +1,108 @@
+body {
+    background-color: #bbcf96;
+}
+
+
+
+
+.resize {
+    width = 1;
+    height = 1;
+    padding: 10px;
+    text-align: center;
+}
+
+
+
+#club_head {
+
+    color: #F76363;
+    width=50%;
+    text-align: center;    
+    padding : 50px;
+}
+
+
+#club_players {
+
+
+    width: 60%;
+    padding: 50px;  
+
+}
+
+
+
+h2, h3 {
+
+    width: 60%;
+    padding : 50px;
+}
+
+
+
+
+
+.line1 {
+    color: green;
+}
+
+
+.line2 {
+    color: purple;
+}
+
+
+.line3 {
+    color: darkred;
+}
+
+
+table {
+                border: 2px ;
+                border-color: red;
+                border-collapse: collapse;
+                width: 50%;
+                text-align: center;
+            }
+
+            th, td {
+                border: 1px solid black;
+                padding: 5px;
+                text-align: center;
+            }
+
+            th {
+                background-color: gray;
+            }
+
+
+
+@media print {
+          .donotprint {
+              display: none !important;
+          }
+      }
+
+
+
+
+button {
+                width: 200px;
+                height: 50px;
+                font-size: 24px;
+                background-color: grey;
+        }
+
+button:hover {
+                background-color: orange;
+        }
+
+
+
+
+@media only screen and (max-width: 900px) {
+    body {
+        background-color: #2bf368;
+    }
+}
